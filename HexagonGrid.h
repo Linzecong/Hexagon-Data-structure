@@ -5,11 +5,11 @@ template<class T>
 class HexagonGrid{
 public:
 
-    T Data;
-    int Weight;
-    int X;
+    T Data;//存储数据
+    int Weight;//权重
+    int X;//坐标
     int Y;
-    int TotalWeight;
+    int TotalWeight;//到这里路程
 
 public:
     HexagonGrid(){
